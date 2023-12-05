@@ -1,0 +1,273 @@
+* {
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 80%;
+}
+
+.content {
+    width: 1000px;
+}
+
+#left {
+    width: 280px; 
+    max-width: 280px;
+}
+
+.col {
+    float: left;
+    width: 40%;
+}
+
+.row:after {
+    display: table;
+    clear: both;
+}
+
+#aboutMe {
+    margin: unset;
+    padding: unset;
+}
+
+/* MULTIPLES*/
+.col, #avaDetails {
+    padding: 10px;
+}
+
+.row:after, .leftSectionHeader:after {
+    content: "";
+}
+
+.leftSectionHeader:after, .borderSection {
+    border: 2px solid black;
+}
+
+#name, h2 {
+    width: 50vw;
+}
+
+#avaDetails, #contactContainer, #proficientIn, #jobDescription, #bio {
+    font-size: 3em;
+}
+
+#ava, .container, #educationSection, #projects {
+    display: flex; 
+}
+
+a, .fa-brands, .fa-solid, .someInfo {
+    color: black;
+}
+
+#viewMyLink, #aps8 {
+    cursor: pointer;
+}
+
+#moodText, #viewMyLink, #contactContainer, #proficientIn, #contactBottom, #linkedInUrl, #aps8, #blogName, #jobLocale {
+    font-weight: bold;
+}
+
+#subAva, #contactBottom, #linkedIn, #blogName, #aps {
+    font-size: 2.5em;
+}
+
+#quote, #title, #location {
+    padding-bottom: 15px;
+}
+
+.container, #linkedIn, #eduContainer, .educationSubSection, .years {
+    padding: 5px;
+}
+
+#contactContainer, #aps8, .projectName {
+    color: RGB(0, 54, 152);
+}
+
+#jobDescription, #jobSubHeader, #jobLocale, #jobText, #two {
+    margin-bottom: 5px;
+}
+
+#jobSubHeader, .rightSubHeader, .rightHeader, #number {
+    color: RGB(249, 99, 31);
+}
+
+#proficientIn, #contactBottom, #linkedIn a{
+    padding-left: 5px;
+}
+
+#linkedIn, #blog {
+    margin-top: 20px;
+}
+
+#linkedIn a, #moodText, #viewMyLink {
+    font-size: .9em;
+}
+
+#blog, #linkedIn {
+    margin-bottom: 20px;
+}
+
+#status, .projectName {
+    text-align: center;
+}
+
+#blogName, #aps {
+    margin: 5px 0px;
+}
+
+/*LEFT*/
+/* #left {
+    min-width: 280px;
+    width: 20vw;
+} */
+
+.leftSectionHeader {
+    position: relative;
+    background: RGB(107, 152, 200);
+    color: white;
+    border: 1px solid white;
+}
+
+.leftSectionHeader:after {
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    right: -2px;
+    bottom: -2px;
+    border: 2px solid black;
+    z-index: -1;
+}
+
+#name, h2 {
+    margin: 0 0 20px 0;
+    font-size: 24px;
+}
+
+#profilePic {
+    height: 150px;
+    width: 150px;
+    margin: 0 15px 10px 0;
+}
+
+#avaDetails {
+    display: inline-block;
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+#subAva {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/*CONTACT*/
+.container {
+    justify-content: space-between;
+}
+
+.fa-brands, .fa-solid {
+    font-size: 1.5em;
+}
+
+#contactLeft {
+    padding-right: 50px;
+}
+
+#contactBottom {
+    padding-bottom: 5px;
+}
+
+/*LINKEDIN URL*/
+
+#linkedIn {
+    border: 1px solid RGB(95, 156, 204);
+    overflow: hidden;
+}
+
+/*EDUCATION*/
+
+#educationSection {
+    font-size: 3.5em;
+}
+
+.educationSubSection {
+    background: RGB(179, 207, 237);
+    color: RGB(50, 90, 131);
+    margin-right: 5px;
+}
+
+#two {
+    margin-top: 5px;
+}
+
+.educationSubSection, .someInfo {
+    width: 80%;
+}
+
+.years {
+    background: RGB(214, 231, 250);
+    width: 20%;
+}
+
+/*RIGHT*/
+#right {
+    max-width: 500px;
+    margin: 0px 0px 0px 50px;
+    width: 500px;
+    min-width: 500px;
+}
+/*STATUS*/
+#status {
+    padding: 15px;
+    font-size: 3.5em;
+}
+
+/*RESUME*/
+#aps8 {
+    font-size: 2em;
+}
+
+#jobSubHeader {
+    font-style: italic;
+}
+
+/*ABOUT*/
+.rightHeader {
+    padding: 2px 5px;
+    background: RGB(255, 203, 157);
+    font-size: 12px;
+}
+
+.rightSubHeader {
+    margin: 5px;
+}
+
+#bioText {
+    margin: 5px;
+}
+
+/*FRIENDS*/
+#projects {
+    justify-content: space-evenly;
+}
+
+#projectSpace {
+    font-size: 2.5em;
+    font-weight: bold;
+    margin: 5px;
+}
+
+.project {
+    margin: 5px;
+}
+
+.projectPic {
+    border: 2px solid RGB(0, 54, 152);
+    width: 100%;
+    height: 100px;
+}
+
+#pOne {
+    margin-left: 0px;
+}
